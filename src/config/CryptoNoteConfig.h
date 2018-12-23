@@ -1,7 +1,7 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
-//
+// Copyright (c) 2018, Black Block Consortia (DeceptiCoin Developers)
 // Please see the included LICENSE file for more information.
 
 #pragma once
@@ -200,7 +200,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "TurtleCoin";
+const char     CRYPTONOTE_NAME[]                             = "DeceptiCoin";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -258,9 +258,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "206.189.142.142:11897",//rock
-  "145.239.88.119:11999", //cision
-  "142.44.242.106:11897", //tom
-  "165.227.252.132:11897" //iburnmycd
+  "178.62.39.94:17666",//rock
+  "178.62.38.238:18666", //cision
 };
 } // CryptoNote
