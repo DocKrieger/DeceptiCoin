@@ -1,8 +1,8 @@
 ![image](https://github.com/DeceptiCoinProject/docs/blob/master/images/DeceptiCoin-Logo-Github-2.png)
 
-### Installing
+Current Status: In Development
 
-We offer binary images of the latest releases here: https://latest.turtlecoin.lol
+Learn more at our HQ: https://decepticoin.net
 
 If you would like to compile yourself, read on.
 
@@ -29,8 +29,8 @@ If you are using Clang, you will need Clang 5.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/DeceptiCoinProject/DeceptiCoin`
+- `cd decepticoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
